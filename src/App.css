@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #212121;
+}
+h1 {
+  color: white;
+  text-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
+
+.wel {
+  letter-spacing: 2em;
+}
+
+.auth {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+div .register {
+  border: 5px solid yellow;
+  height: 350px;
+  width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+  float: left;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 10px black;
+}
+div input {
+  text-align: center;
+  border: none;
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+div button {
+  text-align: center;
+  border: none;
+  margin: 10px;
+  width: 80px;
+  height: 3em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+
+div .login {
+  float: right;
+  width: 300px;
+
+  border: 5px solid crimson;
+  padding: 30px;
+  margin-left: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 10px black;
+}
+
+div .loggedIn {
+  overflow: hidden;
+  background-color: #6d9886;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div input:focus {
+  width: 220px;
+}
+
+div button:hover {
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+  border: 2px solid cadetblue;
+  width: 120px;
+  height: 3em;
+}
